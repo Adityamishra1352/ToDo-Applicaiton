@@ -1,19 +1,5 @@
 <app-header></app-header>
-<aside class="fixed top-16 w-80 bg-gray-100 h-screen shadow-lg">
-  <ul>
-    <li class="p-4 bg-blue-100 border-l-4 border-blue-400">All</li>
-    <li class="p-4">Important</li>
-    <li class="p-4">Completed</li>
-  </ul>
-</aside>
+<app-sidebar></app-sidebar>
 <main class="ml-80 min-h-full py-8 px-4">
-  <h2 class="font-bold text-xl">My Day</h2>
-  <div class="text-blue-600"><span>Monday, </span><span>19 January, 2024</span></div>
-  <div class="flex mt-6">
-    <input type="text" class="w-full h-12 rounded shadow px-4 py-2" placeholder="Type Your task">
-  </div>
-  <div class="flex flex-col mt-6">
-    <h2 class="font-bold text-xl">Tasks</h2>
-    <p class="bg-white w-full h-12 rounded shadow px-4 py-2 mt-3">Task1</p>
-  </div>
+  <router-outlet></router-outlet>
 </main>
