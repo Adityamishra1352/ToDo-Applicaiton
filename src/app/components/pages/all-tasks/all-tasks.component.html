@@ -1,9 +1,7 @@
-<h2 class="font-bold text-xl">My Day</h2>
-  <div class="text-blue-600"><span>Monday, </span><span>19 January, 2024</span></div>
+<app-page-title></app-page-title>
   <div class="flex mt-6">
     <input type="text" class="w-full h-12 rounded shadow px-4 py-2" placeholder="Type Your task" [(ngModel)]="newTask" (keydown.enter)="addTask()">
   </div>
   <div class="flex flex-col mt-6">
-    <h2 class="font-bold text-xl">Tasks</h2>
-    <p class="bg-white w-full h-12 rounded shadow px-4 py-2 mt-3">Task1</p>
+    <app-task-list [taskList]="taskList" (complete)="onComplete($event)" (important)="onImportant($event)"></app-task-list>
   </div>

@@ -1,8 +1,37 @@
 {
-    "tasks":[
-        {
-            "id":1,
-            "title":"learn angular"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "learn angular",
+      "complete": true,
+      "important": true
+    },
+    {
+      "id": "de6d",
+      "title": "aditya is a good boy",
+      "important": true,
+      "complete": true
+    },
+    {
+      "id": "70c1",
+      "title": "{{task.title}}",
+      "complete": true,
+      "important": true
+    },
+    {
+      "id": "bfda",
+      "title": "go to gym tommorow",
+      "important": true
+    },
+    {
+      "id": "a0ee",
+      "title": "take a bath "
+    },
+    {
+      "id": "7cdc",
+      "title": "buy detergent",
+      "complete": true,
+      "important": true
+    }
+  ]
 }
